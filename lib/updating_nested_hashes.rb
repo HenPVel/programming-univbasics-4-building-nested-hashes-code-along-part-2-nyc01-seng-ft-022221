@@ -3,8 +3,6 @@ def update_status
   epic_tradgedy[:montague][:hero][:status]="dead"
   epic_tradgedy[:capulet][:hero][:status]="dead"
 
-end
-
 
    epic_tragedy = {
       :montague => {
