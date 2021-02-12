@@ -1,4 +1,11 @@
 def update_status
+
+  epic_tradgedy[:montague][:hero][:status]="dead"
+  epic_tradgedy[:capulet][:hero][:status]="dead"
+
+end
+
+
    epic_tragedy = {
       :montague => {
          :patriarch => {name: "Lord Montague", age: "53"},
@@ -56,8 +63,8 @@ def add_characters
    #
    # - Add an additional :additional_characters key to epic_tragedy and assign it an array as its value
    # - Add two hashes to this array, both with a :name key.
-   #   - The first hash should have the :name key set to "Prince Escalus" 
-   #   - The second hash should have the :name key set to "Apothecary" 
+   #   - The first hash should have the :name key set to "Prince Escalus"
+   #   - The second hash should have the :name key set to "Apothecary"
    # Code your solution here:
 
 
